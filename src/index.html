@@ -1,12 +1,133 @@
+
 <!DOCTYPE html>
 <html lang="es">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>veterinariaDgo</title>
+
+  <title>VeterinariaDgo | Gestión Veterinaria</title>
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: Arial, Helvetica, sans-serif;
+      background: linear-gradient(135deg, #e8f5f2, #f4f9f8);
+      color: #263c3a;
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 20px;
+    }
+
+    .container {
+      max-width: 750px;
+      width: 100%;
+      background-color: white;
+      padding: 60px 40px;
+      border-radius: 20px;
+      text-align: center;
+      box-shadow: 0 10px 35px rgba(0, 0, 0, 0.08);
+    }
+
+    .logo {
+      font-size: 18px;
+      font-weight: bold;
+      color: #249b83;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+      margin-bottom: 25px;
+    }
+
+    h1 {
+      font-size: 42px;
+      color: #1d4d45;
+      margin-bottom: 20px;
+    }
+
+    .description {
+      font-size: 17px;
+      line-height: 1.7;
+      color: #647875;
+      margin-bottom: 30px;
+    }
+
+    .invitation {
+      font-size: 20px;
+      font-weight: 600;
+      color: #249b83;
+      margin-bottom: 35px;
+    }
+
+    .button {
+      display: inline-block;
+      padding: 14px 32px;
+      background-color: #249b83;
+      color: white;
+      text-decoration: none;
+      border-radius: 8px;
+      font-weight: bold;
+      transition: background-color 0.3s, transform 0.3s;
+    }
+
+    .button:hover {
+      background-color: #1d7968;
+      transform: translateY(-3px);
+    }
+
+    footer {
+      margin-top: 40px;
+      font-size: 13px;
+      color: #9aadaa;
+    }
+
+    @media (max-width: 600px) {
+      .container {
+        padding: 40px 25px;
+      }
+
+      h1 {
+        font-size: 32px;
+      }
+
+      .description {
+        font-size: 15px;
+      }
+    }
+  </style>
 </head>
+
 <body>
-  <h1>veterinariaDgo</h1>
-  <p>Sistema web para la gestion de citas y expedientes de mascotas en Durango.</p>
+
+  <main class="container">
+
+    <div class="logo">veterinariaDgo</div>
+
+    <h1>Bienvenido a VeterinariaDgo</h1>
+
+    <p class="description">
+      Una plataforma diseñada para facilitar la gestión veterinaria,
+      permitiendo organizar citas, administrar expedientes médicos
+      y mantener un seguimiento eficiente de la salud de las mascotas
+      en Durango.
+    </p>
+
+    <p class="invitation">
+      Cuidar de tus mascotas nunca fue tan sencillo.
+    </p>
+
+    <a href="#" class="button">Conoce nuestro sistema</a>
+
+    <footer>
+      © 2026 VeterinariaDgo · Gestión veterinaria digital
+    </footer>
+
+  </main>
+
 </body>
 </html>
