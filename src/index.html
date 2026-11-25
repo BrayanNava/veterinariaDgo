@@ -5,7 +5,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <title>VeterinariaDgo | Gestión Veterinaria</title>
+  <title>VeterinariaDgo</title>
 
   <style>
     * {
@@ -16,177 +16,174 @@
 
     body {
       font-family: Arial, Helvetica, sans-serif;
-      background: #f4f9f8;
-      color: #263c3a;
+      background: #ffffff;
+      color: #303d39;
+      line-height: 1.6;
     }
 
-    /* Encabezado */
+    /* Navegación */
     header {
-      background: white;
       padding: 22px 8%;
-      border-bottom: 1px solid #e5eeeb;
+      border-bottom: 1px solid #eeeeee;
     }
 
     .logo {
-      color: #249b83;
-      font-size: 22px;
+      font-size: 20px;
       font-weight: bold;
-      letter-spacing: 1px;
+      color: #287c68;
     }
 
-    /* Presentación principal */
+    /* Presentación */
     .hero {
-      max-width: 1000px;
-      margin: 60px auto;
-      padding: 50px 25px;
+      max-width: 900px;
+      margin: 75px auto;
+      padding: 0 25px;
       text-align: center;
     }
 
     .hero h1 {
-      font-size: 42px;
-      color: #1d4d45;
+      font-size: 38px;
+      font-weight: 600;
+      color: #263f36;
       margin-bottom: 20px;
     }
 
     .hero p {
-      max-width: 700px;
+      max-width: 650px;
       margin: 0 auto 25px;
-      font-size: 17px;
-      line-height: 1.8;
-      color: #647875;
+      color: #707b76;
+      font-size: 16px;
     }
 
     .invitation {
-      color: #249b83 !important;
-      font-size: 20px !important;
-      font-weight: bold;
+      color: #287c68 !important;
+      font-weight: 500;
     }
 
     .button {
       display: inline-block;
-      padding: 14px 30px;
-      background: #249b83;
+      padding: 11px 25px;
+      background: #287c68;
       color: white;
       text-decoration: none;
-      border-radius: 8px;
-      font-weight: bold;
-      transition: 0.3s;
+      border-radius: 5px;
+      font-size: 14px;
+      transition: background 0.2s;
     }
 
     .button:hover {
-      background: #1d7968;
-      transform: translateY(-3px);
+      background: #1e6252;
     }
 
-    /* Banner */
+    /* Imagen */
     .banner {
-      max-width: 1100px;
-      margin: 0 auto 70px;
+      max-width: 1000px;
+      margin: 0 auto 75px;
       padding: 0 25px;
     }
 
     .banner img {
       width: 100%;
-      height: 350px;
+      height: 300px;
       object-fit: cover;
-      border-radius: 18px;
+      border-radius: 6px;
       display: block;
     }
 
     /* Beneficios */
     .benefits {
-      background: white;
-      padding: 70px 8%;
-      text-align: center;
+      padding: 60px 8%;
+      background: #f8faf9;
     }
 
     .benefits h2 {
-      font-size: 32px;
-      color: #1d4d45;
-      margin-bottom: 15px;
+      text-align: center;
+      font-size: 28px;
+      font-weight: 600;
+      color: #263f36;
+      margin-bottom: 12px;
     }
 
     .benefits-intro {
-      color: #647875;
-      font-size: 16px;
-      margin-bottom: 45px;
+      text-align: center;
+      color: #707b76;
+      margin-bottom: 40px;
+      font-size: 15px;
     }
 
     .benefits-container {
-      max-width: 1100px;
+      max-width: 1000px;
       margin: auto;
       display: grid;
       grid-template-columns: repeat(3, 1fr);
-      gap: 25px;
+      gap: 35px;
     }
 
     .benefit-card {
-      background: #f4f9f8;
-      padding: 30px 25px;
-      border-radius: 14px;
-      text-align: left;
-      transition: 0.3s;
-    }
-
-    .benefit-card:hover {
-      transform: translateY(-5px);
-      box-shadow: 0 8px 25px rgba(0, 0, 0, 0.07);
+      padding: 10px 0;
     }
 
     .benefit-card h3 {
-      color: #249b83;
-      font-size: 20px;
-      margin-bottom: 15px;
+      color: #287c68;
+      font-size: 18px;
+      font-weight: 600;
+      margin-bottom: 12px;
     }
 
     .benefit-card p {
-      color: #647875;
-      line-height: 1.7;
+      color: #707b76;
       font-size: 15px;
     }
 
     /* Cierre */
     .final-section {
       text-align: center;
-      padding: 65px 20px;
+      padding: 65px 25px;
     }
 
     .final-section h2 {
-      color: #1d4d45;
-      margin-bottom: 20px;
-      font-size: 28px;
+      font-size: 26px;
+      font-weight: 600;
+      color: #263f36;
+      margin-bottom: 15px;
     }
 
     .final-section p {
-      color: #647875;
-      margin-bottom: 25px;
-      line-height: 1.7;
+      max-width: 600px;
+      margin: 0 auto 25px;
+      color: #707b76;
+      font-size: 15px;
     }
 
     footer {
-      background: #1d4d45;
-      color: white;
+      border-top: 1px solid #eeeeee;
       text-align: center;
-      padding: 22px;
+      padding: 20px;
+      color: #8a9690;
       font-size: 13px;
     }
 
-    /* Adaptación a celulares */
-    @media (max-width: 768px) {
+    /* Responsive */
+    @media (max-width: 700px) {
+      .hero {
+        margin: 55px auto;
+      }
+
       .hero h1 {
-        font-size: 32px;
+        font-size: 30px;
+      }
+
+      .banner img {
+        height: 200px;
       }
 
       .benefits-container {
         grid-template-columns: 1fr;
-      }
-
-      .banner img {
-        height: 220px;
+        gap: 25px;
       }
 
       .benefits h2 {
-        font-size: 27px;
+        font-size: 24px;
       }
     }
   </style>
@@ -200,95 +197,87 @@
 
   <main>
 
-    <!-- Presentación -->
     <section class="hero">
-      <h1>Bienvenido a VeterinariaDgo</h1>
+      <h1>Gestión veterinaria, más sencilla.</h1>
 
       <p>
-        Una plataforma diseñada para facilitar la gestión veterinaria,
-        permitiendo organizar citas, administrar expedientes médicos
-        y mantener un seguimiento eficiente de la salud de las mascotas
+        VeterinariaDgo es un sistema web que permite administrar
+        citas y expedientes de mascotas de manera organizada,
+        facilitando el trabajo diario de las clínicas veterinarias
         en Durango.
       </p>
 
       <p class="invitation">
-        Cuidar de tus mascotas nunca fue tan sencillo.
+        Conoce una forma más práctica de cuidar y gestionar.
       </p>
 
       <a href="#beneficios" class="button">
-        Conoce nuestro sistema
+        Conocer el sistema
       </a>
     </section>
 
-    <!-- Banner veterinario -->
     <section class="banner">
       <img
         src="https://images.unsplash.com/photo-1628009368231-7bb7cfcb0def?auto=format&fit=crop&w=1400&q=80"
-        alt="Atención veterinaria y cuidado de mascotas"
+        alt="Atención y cuidado veterinario"
       >
     </section>
 
-    <!-- Beneficios del sistema -->
     <section class="benefits" id="beneficios">
 
       <h2>¿Por qué utilizar VeterinariaDgo?</h2>
 
       <p class="benefits-intro">
-        Una herramienta digital que ayuda a mejorar la organización
-        y eficiencia de los servicios veterinarios.
+        Herramientas que facilitan la administración y atención veterinaria.
       </p>
 
       <div class="benefits-container">
 
         <article class="benefit-card">
-          <h3>Gestión de citas</h3>
+          <h3>Control de citas</h3>
           <p>
-            Organiza las consultas de tus pacientes, administra
-            los horarios disponibles y facilita el control
-            de las citas veterinarias.
+            Organiza consultas y horarios para ofrecer
+            una atención más eficiente.
           </p>
         </article>
 
         <article class="benefit-card">
           <h3>Expedientes digitales</h3>
           <p>
-            Mantén la información de cada mascota organizada
-            en un solo lugar, incluyendo sus datos, historial
-            médico y tratamientos.
+            Consulta y administra la información médica
+            de cada mascota desde un solo lugar.
           </p>
         </article>
 
         <article class="benefit-card">
-          <h3>Mayor eficiencia</h3>
+          <h3>Organización</h3>
           <p>
-            Reduce el uso de registros físicos, facilita
-            la consulta de información y optimiza las tareas
-            administrativas de la clínica.
+            Simplifica las tareas administrativas y reduce
+            la dependencia de registros en papel.
           </p>
         </article>
 
       </div>
     </section>
 
-    <!-- Invitación final -->
     <section class="final-section">
-      <h2>Moderniza la gestión de tu veterinaria</h2>
+      <h2>Una mejor gestión comienza aquí.</h2>
 
       <p>
-        Descubre una forma más práctica de administrar citas
-        y expedientes, brindando una atención organizada
-        y de calidad a cada mascota.
+        Administra tu clínica de manera ordenada
+        y dedica más tiempo a lo que realmente importa:
+        el bienestar de tus pacientes.
       </p>
 
       <a href="#" class="button">
-        Explorar el sistema
+        Explorar VeterinariaDgo
       </a>
     </section>
 
   </main>
 
   <footer>
-    © 2026 VeterinariaDgo · Sistema de gestión veterinaria en Durango
+    © 2026 VeterinariaDgo · Sistema de gestión veterinaria
   </footer>
 
 </body>
