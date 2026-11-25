@@ -1,0 +1,10 @@
+Nombre: veterinariaDgo
+
+Problema:
+Muchas veterinarias pequenas de Durango llevan el control de citas y expedientes de las mascotas en cuadernos o mensajes de WhatsApp. Esto provoca citas duplicadas, historiales perdidos y clientes que olvidan sus vacunas.
+
+Objetivo:
+Ofrecer un sistema web sencillo que permita agendar citas, guardar el expediente clinico de cada mascota y enviar recordatorios de vacunas y consultas.
+
+Descripcion:
+veterinariaDgo es una plataforma web para veterinarias y duenos de mascotas. Los clientes pueden solicitar citas en linea y consultar el historial de sus mascotas; el personal puede administrar la agenda, registrar tratamientos y recibir avisos de vacunacion pendientes.
